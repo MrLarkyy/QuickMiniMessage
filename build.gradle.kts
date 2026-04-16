@@ -19,7 +19,7 @@ repositories {
 dependencies {
     compileOnly("io.papermc.paper:paper-api:1.21.11-R0.1-SNAPSHOT")
     jmhImplementation("io.papermc.paper:paper-api:1.21.11-R0.1-SNAPSHOT")
-    jmhImplementation("net.kyori:adventure-text-minimessage:4.26.1")
+    jmhImplementation("net.kyori:adventure-text-minimessage:5.0.1")
     jmhImplementation("com.fasterxml.jackson.core:jackson-databind:2.21.2")
     jmhImplementation("org.knowm.xchart:xchart:3.8.8")
 
@@ -28,7 +28,7 @@ dependencies {
     testImplementation(kotlin("test"))
     testImplementation("io.papermc.paper:paper-api:1.21.11-R0.1-SNAPSHOT")
     testImplementation("net.kyori:adventure-text-serializer-gson:4.26.1")
-    testImplementation("net.kyori:adventure-text-minimessage:4.26.1")
+    testImplementation("net.kyori:adventure-text-minimessage:5.0.1")
 }
 
 kotlin {
