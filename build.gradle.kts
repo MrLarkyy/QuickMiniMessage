@@ -24,7 +24,7 @@ dependencies {
     jmhImplementation("org.knowm.xchart:xchart:3.8.8")
 
     // Testing
-    testImplementation("io.mockk:mockk:1.14.9")
+    testImplementation("io.mockk:mockk:1.14.11")
     testImplementation(kotlin("test"))
     testImplementation("io.papermc.paper:paper-api:1.21.11-R0.1-SNAPSHOT")
     testImplementation("net.kyori:adventure-text-serializer-gson:4.26.1")
