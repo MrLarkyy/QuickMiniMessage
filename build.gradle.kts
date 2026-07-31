@@ -21,7 +21,7 @@ dependencies {
     jmhImplementation("io.papermc.paper:paper-api:1.21.11-R0.1-SNAPSHOT")
     jmhImplementation("net.kyori:adventure-text-minimessage:4.26.1")
     jmhImplementation("com.fasterxml.jackson.core:jackson-databind:2.21.2")
-    jmhImplementation("org.knowm.xchart:xchart:3.8.8")
+    jmhImplementation("org.knowm.xchart:xchart:4.0.4")
 
     // Testing
     testImplementation("io.mockk:mockk:1.14.9")
